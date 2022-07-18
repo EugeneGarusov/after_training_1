@@ -1,0 +1,179 @@
+body {text-align: center; font-family: "Montserrat";}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+.dicktok {font-weight:800;}
+#title {
+
+  font-family: "Montserrat";
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+
+}
+.white-section {background-color:white; }
+.colored-section {background-color: #ff4c68; color:white;}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 100px
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Download Buttons */
+.download-buttons {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.sobaka_ebanaya {
+  transform: rotate(30deg);
+  width: 20%;
+  z-index: 0;
+  position: absolute;
+  right: 25%;
+}
+
+/* 3 punkta */
+.check {
+  float: inherit;
+}
+
+.text_3_punkta {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Montserrat, sans-serif"
+}
+
+#features {
+  padding: 7% 15%;
+  z-index: 1;
+  position: relative;
+}
+
+
+
+.iconn {
+  color: #ef8172;
+  transform: scale(3);
+  margin-bottom: 30px;
+}
+
+.iconn:hover {
+  color: #ff4c68;
+}
+
+.text_under_3_punkta {
+  color: #8f8f8f;
+}
+
+.hr_under_features {
+  color: #ef8172;
+}
+
+/* testimonials */
+#testimonials {
+  padding-bottom: 50px;background-color: #ef8172;
+}
+
+.Pebbles {
+  color: white;
+}
+
+.testimonial_dog {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+#press {
+  padding-bottom: 3%;background-color:#ef8172;
+}
+
+.press_image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  .sobaka_ebanaya {
+    position: static;
+    transform: rotate(0);
+    width: 45%;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* cta */
+#cta {
+  margin-bottom: 100px;
+  height: 500px;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+
+
+#brands {
+  margin: 0 8px;
+}
